@@ -51,6 +51,11 @@ Determine the winner of the election based on popular vote
 
    -The winner of the election was
   	-Diana DeGette received 73.8%  of the vote and 272,892 number of votes
+	
+	
+Final resut will look like this in text form:
+
+![png_Election Analysis](https://github.com/Ruma-T/Election-Analysis/blob/18560055d946bc35d4aa5f074a5fd7561af51752/Election%20Analysis.PNG)
 
 ## Challenges Overview
     We were given around 370,000 election data with ballot id, county name and candidate's name in a csv file.We had to read county wise votes cast to each candidate, count total votes for each candidate and total votes counted. Then calculate each candidate's percentage votes over total votes, compare candidate's total votes and get the winning candidate's name, total votes and percentage votes received.
@@ -65,8 +70,13 @@ Determine the winner of the election based on popular vote
 
 Election Audit Summary
 The code we created in python could be used for any other elections with the different csv file. Such as if we want to analyze El Paso, Boulder, and Douglus county, we can use different CSV file with election data and analyze within few minutes. For the whole state this could be done within a short period of time. Even three types of data collected through ballot, in-person and any other type of vote could be analyzed separately to get better understanding of the whole process.
+Change in CSV file to load
 
  ![png_Electon_Analysis](https://github.com/Ruma-T/Election-Analysis/blob/db0e81080abe6c2f49250d2429a1434c79f2b260/election%20CSV.PNG)
 
 ![png_Electon-EBD](https://github.com/Ruma-T/Election-Analysis/blob/8a23cdd2a6c2490ab263b93a8136db42409ffef9/Election-EBD.PNG)
+
+Results will be different in the colored part for any other election:
+
+![png_Electon Results for any County](https://github.com/Ruma-T/Election-Analysis/blob/18560055d946bc35d4aa5f074a5fd7561af51752/Election%20Results%20for%20any%20County.png)
 
