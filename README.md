@@ -60,6 +60,8 @@ Determine the winner of the election based on popular vote
     We created a candidate votes dictionary with candidate options list.In the dictionary, we had candidate's name and votes as key and value. We set candidate's vote count to zero, and then we started tallying the votes for each candidate. We introduced .append to add candidate's name , if candidate's name was not in the list. After that, we counted the total number of all candidate's votes. We used loop variable to retrieve the votes of the candidate from the candidate_votes dictionary . Next, printed each candidate's name     and the percentage of votes using f-string formatting. This "f"Winning Percentage: {winning_percentage:.1f}%\n"print(winning_candidate_summary)" f-string was used to round to one decimal place and to start a new line
 
     Finally, we got the winning candidate Diana DeGette with total vote of 272,892 and her winning percentage was 73.8%.
+    
+   ![png_Electon_Analysis](https://github.com/Ruma-T/Election-Analysis/blob/db0e81080abe6c2f49250d2429a1434c79f2b260/election%20CSV.PNG)
 
 Election Audit Summary
 The code we created in python could be used for any other elections with the different csv file. Such as if we want to analyze El Paso, Boulder, and Douglus county, we can use different CSV file with election data and analyze within few minutes. For the whole state this could be done within a short period of time. Even three types of data collected through ballot, in-person and any other type of vote could be analyzed separately to get better understanding of the whole process.
