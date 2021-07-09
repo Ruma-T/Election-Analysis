@@ -61,11 +61,12 @@ Determine the winner of the election based on popular vote
 
     Finally, we got the winning candidate Diana DeGette with total vote of 272,892 and her winning percentage was 73.8%.
     
-   ![png_Electon_Analysis](https://github.com/Ruma-T/Election-Analysis/blob/db0e81080abe6c2f49250d2429a1434c79f2b260/election%20CSV.PNG)
+  
 
 Election Audit Summary
 The code we created in python could be used for any other elections with the different csv file. Such as if we want to analyze El Paso, Boulder, and Douglus county, we can use different CSV file with election data and analyze within few minutes. For the whole state this could be done within a short period of time. Even three types of data collected through ballot, in-person and any other type of vote could be analyzed separately to get better understanding of the whole process.
 
+ ![png_Electon_Analysis](https://github.com/Ruma-T/Election-Analysis/blob/db0e81080abe6c2f49250d2429a1434c79f2b260/election%20CSV.PNG)
 
-
+![png_Electon-EBD](https://github.com/Ruma-T/Election-Analysis/blob/8a23cdd2a6c2490ab263b93a8136db42409ffef9/Election-EBD.PNG)
 
